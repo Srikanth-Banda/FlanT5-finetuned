@@ -44,10 +44,7 @@ This repository contains the code and resources for fine-tuning the **FlanT5-bas
    ```
 
 3. **Run Fine-Tuning**: The notebook includes scripts to fine-tune the model on your own dataset.
-   ```bash
-   python train.py --model google/flan-t5-base --data_path path_to_dataset
-   ```
-
+   
 4. **Generate Code**: Use the fine-tuned model for inference.
    ```python
    from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
